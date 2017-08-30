@@ -88,7 +88,7 @@
     <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release Lib|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release Lib|Win32'" />
     <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release Lib|Win32'" />
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug Dll|Win32'">getopt</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug Dll|Win32'">getoptd</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug Lib|Win32'">getopt</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release Dll|Win32'">getopt</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release Lib|Win32'">getopt</TargetName>
@@ -171,7 +171,7 @@
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)\getopt.dll</OutputFile>
+      <OutputFile>$(OutDir)\getoptd.dll</OutputFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
